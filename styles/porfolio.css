@@ -101,8 +101,26 @@ main{
      }
      .about-info-container{
         display: flex;
-        justify-content: space-around;
+        justify-content:space-between
+        
      }
      .about-info{
         text-align: center;
      }
+     .info-title{
+        color: #747876;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+     }
+     .info-description{
+        color: black;
+        font-size: 20px; 
+        font-weight: 700;
+        line-height: 30px;
+     }
+     #what-i-do-description{
+        padding: 30px 150px;
+     }
+     
+   
